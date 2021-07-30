@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 175px;
+    width: 100%;
+    display:grid;
+    grid-template: 1fr / repeat(2,1fr);
+    border: 1px solid coral;
+   padding:5px;
+}
+header img{
+    
+    margin-top: 10px;
+    height:150px;
+    width:100%;
+
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color:greenyellow;
+    
+}
+.spanwrapper{
+    font-size: 3.5rem;
+    color:coral;
+}
+.navWrapper{
+    height: 20px;
+  float: left;
+  width: 100%;
+  text-align: center;
+   
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+}
+.contentWrapper{
+  height: 550px;
+  width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+
+}
+#content{
+    width: 50%;
+    display: inline-block;
+    padding: 10px;
+  margin-top: 10px;
+ 
+}
+#content h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+  
+  
+}
+#content P{
+    font-size: 16px;
+    font-weight: normal;
+}
+.contentPara{
+    padding: 5px;
+}
+#Venues{
+    width: 50%;
+    display: inline-block;
+   /* background-image: url('Images/asideBackground.jpg');
+    background-size: cover;*/
+    color:black;
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+}
+#Venues h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    padding: 10px;
+}
+.venueWrapper{
+    height: 375px;
+    width:350px;
+    background-color: rgb(245, 198, 205);
+    text-align: center;
+  margin: 0 auto;
+}
+button{
+height: 50px;
+width: 150px;
+background-color: steelblue;
+float:left;
+border-radius:5%;
+padding: 10px;
+text-shadow: steelblue;
+font-size: 1em;
+margin-left:5px;
+box-shadow: none;
+}
+.dateSpan{
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
